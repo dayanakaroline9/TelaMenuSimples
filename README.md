@@ -1,13 +1,14 @@
 # Tela de Menu Simples
 
-Este é um exemplo de tela de menu com 3 botões que levam a 3 subtelas, controladas pelo mouse e teclado.
+Este é um exemplo de uma tela de menu com três botões que conduzem a três subtelas, controladas pelo mouse e teclado.
 
-Para construir esse exemplo, usei a linguagem Javascript acompanhada de HTML e CSS básico, usando a biblioteca P5.js que possibilita mais criatividade no desenvolvimento WEB.
+Para construir esse exemplo, foi utilizada a linguagem Javascript em conjunto com HTML e CSS básico, utilizando a biblioteca P5.js, que permite maior criatividade no desenvolvimento web.
 
-As funcões principais são: 
+As principais funções incluídas são:
+
 ## setup()
 
-Esta função é uma função da biblioteca p5.js, nesse exemplo ela é responsavel por criar as configurações iniciais da area de desenho.
+Essa função é parte da biblioteca p5.js e, neste exemplo, ela é responsável por criar as configurações iniciais da área de desenho.
 
   ```javascript
     function setup() {
@@ -17,7 +18,7 @@ Esta função é uma função da biblioteca p5.js, nesse exemplo ela é responsa
       
 ## draw()
 
-Esta função é uma função da biblioteca p5.js, nesse exemplo ela é responsavel por projetar os desing de telas que foram criados nas outras funções e são todos chamados por essa função.
+Essa função é parte da biblioteca p5.js e, neste exemplo, ela é responsável por projetar os designs das telas que foram criados nas outras funções, sendo todas chamadas por essa função.
 
   ```javascript
     function draw() {
@@ -37,8 +38,7 @@ Esta função é uma função da biblioteca p5.js, nesse exemplo ela é responsa
   ```
 ## menu() 
 
-Função da tela de menu foi desenvolvida para mostra a tela desenvolvida com todos os desing que a biblioteca P5.js nos possibilita criar.
-
+A função da tela de menu foi desenvolvida para exibir a tela criada com todos os designs que a biblioteca P5.js nos permite criar.
 
   ```javascript
       function menu(){
@@ -68,8 +68,7 @@ Função da tela de menu foi desenvolvida para mostra a tela desenvolvida com to
   ```
 ## mouseClicked()
 
-Esta função é uma função da biblioteca p5.js, nesse exemplo, ela que identifica o evento de click do mouse, assim possibilita que possamos prevê onde esse click ocorre para poder dizer ao nosso programa o que faze. Nesta função verificamos todos os eventos importantes que podem ocorrer atraves do click do mouse, que são os enventos de mudança de telas.
-
+Essa função é parte da biblioteca p5.js, neste exemplo, ela é responsável por identificar o evento de clique do mouse, permitindo prever onde esse clique ocorre para informar ao programa o que deve ser feito. Nessa função, verificamos todos os eventos relevantes que podem ocorrer através do clique do mouse, como as mudanças de telas.
 
   ```javascript
   function mouseClicked() {
@@ -94,7 +93,7 @@ Esta função é uma função da biblioteca p5.js, nesse exemplo, ela que identi
 
 ## keyPressed()
 
-Esta função é uma função da biblioteca p5.js, nesse exemplo ela identifica o evento de que uma tecla do teclado foi pressionada, assim podemos identificar qual tecla foi pressionada e realizar a mudança de tela usando o teclado.
+Essa função é parte da biblioteca p5.js e, neste exemplo, ela identifica o evento de pressionamento de tecla do teclado. Isso nos permite identificar qual tecla foi pressionada e realizar a mudança de tela utilizando o teclado.
 
   ```javascript
   function keyPressed(){
